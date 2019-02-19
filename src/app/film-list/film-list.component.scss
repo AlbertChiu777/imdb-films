@@ -1,0 +1,9 @@
+.image-container{
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 0 1rem .5rem 1rem;
+  img:not(:last-child) {
+    margin-right: 10px;
+  }
+}
