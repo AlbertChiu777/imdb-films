@@ -1,0 +1,61 @@
+img {
+  margin-right: 30px;
+}
+
+.media-body {
+  margin-top: 17px;
+}
+.actor-designation {
+  margin-bottom: 14px;
+}
+
+.actor-designation a {
+  color: #9b9b9b;
+}
+
+.actor-designation .rating {
+  margin-right: 10px;
+}
+
+.actor-designation a i {
+  color: #ffab00;
+  margin-right: 5px;
+}
+.actor-biodata span {
+  font-weight: 300;
+  margin-left: 15px;
+}
+
+.actor-biodata .title {
+  width: 105px;
+  display: inline-block;
+  margin-left: 0;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.section-title-3 {
+  border-left: 4px solid #ffab00;
+  line-height: 40px;
+  padding-left: 17px;
+  margin-bottom: 30px;
+}
+
+.detail {
+  margin-bottom: 65px;
+  margin-top: 30px;
+}
+
+.container {
+  position: relative;
+}
+
+.fa.fa-times {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}

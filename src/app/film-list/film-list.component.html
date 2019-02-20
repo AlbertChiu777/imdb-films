@@ -1,8 +1,9 @@
-<p>{{ title }}</p>
+<h5 class="dark">{{ title }}</h5>
 
 <div class="image-container">
-  <img src="https://m.media-amazon.com/images/M/MV5BMTg0MzA1ODg5M15BMl5BanBnXkFtZTYwODYxMTU3._V1_SX300.jpg" (click)="clickImage()">
-  <img src="https://m.media-amazon.com/images/M/MV5BMTg0MzA1ODg5M15BMl5BanBnXkFtZTYwODYxMTU3._V1_SX300.jpg" alt="">
-  <img src="https://m.media-amazon.com/images/M/MV5BMTg0MzA1ODg5M15BMl5BanBnXkFtZTYwODYxMTU3._V1_SX300.jpg" alt="">
-  <img src="https://m.media-amazon.com/images/M/MV5BMTg0MzA1ODg5M15BMl5BanBnXkFtZTYwODYxMTU3._V1_SX300.jpg" alt="">
+    <div *ngFor="let film of filmList"
+        class="image"
+        [ngStyle]="{ 'background-image': 'url(' + film.Poster + ')'}"
+        (click)="clickImage(film)">
+    </div>
 </div>

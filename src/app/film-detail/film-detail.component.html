@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="fa fa-times fa-2x" (click)="backToList()"></div>
+    <div class="detail">
+        <div class="media">
+            <img [src]="filmData.Poster" alt="actor">
+            <div class="media-body">
+                <h5>{{ filmData.Title }}</h5>
+                <div class="actor-designation">
+                    <a class="rating" href="javascript:void(0)"><i class="fa fa-star"></i>{{ filmData.imdbRating }}/10</a>
+                    <a class="rating" href="javascript:void(0)"><i class="fa fa-eye"></i>215k View</a>
+                </div>
+                <div class="actor-biodata">
+                    <p><span class="title">發行日期</span>:<span>{{ filmData.Released | date }}</span></p>
+                    <p><span class="title">電影時長</span>:<span>{{ filmData.Runtime }}</span></p>
+                    <p><span class="title">演員</span>:<span>{{ filmData.Actors }}</span></p>
+                    <p><span class="title">國家</span>:<span>{{ filmData.Country }}</span></p>
+                    <p><span class="title">導演</span>: <span>{{ filmData.Director}}</span></p>
+                    <p><span class="title">語言</span>:<span>{{ filmData.Language }}</span></p>
+                    <p><span class="title">製造商</span>: <span>{{ filmData.Production }}</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="description">
+        <h5 class="section-title-3">情節描述</h5>
+        <p>{{ filmData.Plot }}</p>
+    </div>
+</div>
+

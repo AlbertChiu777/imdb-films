@@ -1,9 +1,27 @@
+$imageWidth: 250px;
+
 .image-container{
   width: 100%;
   overflow-x: auto;
   white-space: nowrap;
   padding: 0 1rem .5rem 1rem;
-  img:not(:last-child) {
-    margin-right: 10px;
+  .image {
+    position: relative;
+    height: 400px;
+    width: $imageWidth;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
   }
+}
+
+h5 {
+  margin-left: 1rem;
+  margin-top: .5rem;
 }
