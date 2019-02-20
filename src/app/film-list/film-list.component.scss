@@ -2,7 +2,8 @@ $imageWidth: 250px;
 
 .image-container{
   width: 100%;
-  overflow-x: auto;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
   white-space: nowrap;
   padding: 0 1rem .5rem 1rem;
   .image {
