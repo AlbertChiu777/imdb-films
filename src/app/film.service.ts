@@ -17,13 +17,24 @@ export class FilmService {
       'Prosecuting Evil',
       'The Upside',
       'A Dog\'s Way Home',
-      'Glass'
+      'Glass',
+      'Arctic',
+      'Isn\'t It Romantic',
+      'Happy Death Day 2U',
+      'To Dust',
+      'Untogether',
+      'The Man Who Killed Hitler and Then The Bigfoot',
     ],
     '喜愛的電影': [
       'How to Train Your Dragon: The Hidden World',
       'Fighting with My Family',
       'Total Dhamaal',
-      'Escape Room'
+      'Escape Room',
+      'Braid',
+      'Serenity',
+      'The Kid Who Would Be King',
+      'The Prodigy',
+      'Cold Pursuit',
     ],
     '近期上映': [
       'HAN DAN',
@@ -31,6 +42,9 @@ export class FilmService {
       'They Shall Not Grow Old',
       'What Men Want',
       'Cold Pursuit',
+      'Miss Bala',
+      'The Unicorn',
+      'Piercing',
     ]
   };
   private apiPath = 'https://www.omdbapi.com/';
