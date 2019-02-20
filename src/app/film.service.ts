@@ -33,7 +33,7 @@ export class FilmService {
       'Cold Pursuit',
     ]
   };
-  private apiPath = 'http://www.omdbapi.com/';
+  private apiPath = 'https://www.omdbapi.com/';
   private filmDetail = {};
 
   constructor(private http: HttpClient) { }
