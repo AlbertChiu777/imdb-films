@@ -59,3 +59,9 @@ h5 {
   right: 10px;
   cursor: pointer;
 }
+
+@media (max-width: 767px) {
+  .media {
+    display: block;
+  }
+}
